@@ -17,8 +17,6 @@ const PUBLIC = path.join(APP_DIR, 'public');
 const CONFIG_DIR = path.join(APP_DIR, 'configs');
 const NAME_RE = /^[a-z0-9_-]{1,40}$/;
 
-// Cadastro fica só no servidor local: não vai para o site público.
-const ADMIN_ONLY = new Set(['config.html', 'config.js']);
 
 // Fora da Action, aproveita o .env local (na Action as chaves vêm dos Secrets).
 try { await import('../src/env.js'); } catch { /* sem dotenv instalado: tudo bem */ }
@@ -33,15 +31,17 @@ function readRoster(raw) {
 
 await fs.rm(OUT, { recursive: true, force: true });
 await fs.mkdir(path.join(OUT, 'status'), { recursive: true });
+await fs.mkdir(path.join(OUT, 'configs'), { recursive: true });
 
 // 1. Arquivos do site (menos o cadastro), com o modo estático ligado.
 for (const file of await fs.readdir(PUBLIC)) {
-  if (ADMIN_ONLY.has(file)) continue;
   let content = await fs.readFile(path.join(PUBLIC, file));
   if (file === 'mode.js') {
     const text = content.toString('utf8');
-    const flipped = text.replace('const STATIC = false;', 'const STATIC = true;');
-    if (flipped === text) throw new Error('mode.js: não achei "const STATIC = false;"');
+    const flipped = text
+      .replace('const STATIC = false;', 'const STATIC = true;')
+      .replace("const REPO = '';", `const REPO = ${JSON.stringify(process.env.GITHUB_REPOSITORY || '')};`);
+    if (!flipped.includes('const STATIC = true;')) throw new Error('mode.js: não achei "const STATIC = false;"');
     content = flipped;
   }
   await fs.writeFile(path.join(OUT, file), content);
@@ -61,6 +61,8 @@ for (const file of (await fs.readdir(CONFIG_DIR)).sort()) {
     console.warn(`  [pages] pulei configs/${file}: ${err.message}`);
     continue;
   }
+  // Elenco bruto para a aba Cadastro (o mesmo que já está público no repositório).
+  await fs.writeFile(path.join(OUT, 'configs', file), JSON.stringify(roster));
   const snap = await buildSnapshot(name, roster);
   await fs.writeFile(path.join(OUT, 'status', `${name}.json`), JSON.stringify(snap));
   const live = snap.streamers.filter((s) => s.live).length;
@@ -77,7 +79,7 @@ const active = configs.find((c) => c.name === wanted)?.name
 await fs.writeFile(path.join(OUT, 'configs.json'), JSON.stringify({ active, configs }));
 
 // 3. Trava de segurança: nenhum segredo pode ter ido parar no site.
-const secrets = ['TWITCH_CLIENT_SECRET', 'KICK_CLIENT_SECRET', 'ADMIN_PASSWORD']
+const secrets = ['TWITCH_CLIENT_SECRET', 'KICK_CLIENT_SECRET', 'ADMIN_PASSWORD', 'LIVEWATCH_PRIVATE_KEY']
   .map((k) => process.env[k])
   .filter((v) => v && v.length >= 6);
 for (const file of await fs.readdir(OUT, { recursive: true })) {
