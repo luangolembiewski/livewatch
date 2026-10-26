@@ -83,9 +83,24 @@ function fillForm(item) {
   state.editingId = item?.id || null;
 }
 
+const STATIC = Boolean(window.LIVEWATCH?.static);
+let activeConfig = '';
+
 async function load() {
-  state.items = await api('/api/streamers');
+  if (STATIC) {
+    const data = await LIVEWATCH.roster();
+    activeConfig = data.active;
+    state.items = data.items;
+  } else {
+    state.items = await api('/api/streamers');
+  }
   render();
+}
+
+/** No Pages o pedido vai criptografado numa issue; a Action confere a senha e grava. */
+async function sendStatic(op, extra) {
+  await LivewatchCadastro.send({ op, config: activeConfig, password: state.password, ...extra });
+  notify('Abri o GitHub numa nova aba: clique em "Create" (ou "Submit new issue") para enviar. O painel atualiza em 2 a 4 minutos.');
 }
 
 el('liveUrl').addEventListener('input', (e) => {
@@ -105,6 +120,11 @@ el('save').addEventListener('click', async () => {
   };
 
   try {
+    if (STATIC) {
+      await sendStatic(state.editingId ? 'update' : 'create', { id: state.editingId || undefined, entry: payload });
+      fillForm(null);
+      return;
+    }
     if (state.editingId) {
       await api(`/api/streamers/${state.editingId}`, { method: 'PUT', body: JSON.stringify(payload) });
       notify('Cadastro atualizado.');
@@ -135,6 +155,10 @@ el('tbody').addEventListener('click', async (e) => {
 
   if (!confirm(`Remover ${item.personagem} do monitoramento?`)) return;
   try {
+    if (STATIC) {
+      await sendStatic('delete', { id });
+      return;
+    }
     await api(`/api/streamers/${id}`, { method: 'DELETE' });
     notify('Cadastro removido.');
     await load();
@@ -154,6 +178,14 @@ el('export').addEventListener('click', () => {
 
 el('gate-submit').addEventListener('click', async () => {
   const password = el('gate-password').value;
+  if (STATIC) {
+    if (!password) return;
+    state.password = password;
+    sessionStorage.setItem('livewatch-pw', password);
+    el('gate').hidden = true;
+    load().catch((err) => notify(err.message, true));
+    return;
+  }
   try {
     await fetch('/api/login', {
       method: 'POST',
@@ -177,6 +209,18 @@ el('gate-password').addEventListener('keydown', (e) => {
 });
 
 (async function boot() {
+  if (STATIC) {
+    el('gate-label').textContent = 'Senha do cadastro';
+    el('gate-hint').hidden = false;
+    el('gate-hint').textContent = 'A senha é conferida pelo GitHub quando o pedido chega. Para enviar, você precisa estar logado no GitHub.';
+    if (!state.password) {
+      el('gate').hidden = false;
+      el('gate-password').focus();
+      return;
+    }
+    load().catch((err) => notify(err.message, true));
+    return;
+  }
   const health = await fetch('/api/health').then((r) => r.json());
   if (health.passwordRequired && !state.password) {
     el('gate').hidden = false;

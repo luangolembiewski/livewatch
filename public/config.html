@@ -11,9 +11,10 @@
     <div class="panel gate-box">
       <h2>Acesso ao cadastro</h2>
       <div class="field">
-        <label for="gate-password">Senha (ADMIN_PASSWORD do .env)</label>
+        <label for="gate-password" id="gate-label">Senha (ADMIN_PASSWORD do .env)</label>
         <input type="password" id="gate-password" autocomplete="current-password" />
       </div>
+      <p class="hint" id="gate-hint" hidden></p>
       <p class="notice bad" id="gate-error" hidden></p>
       <div class="actions">
         <button class="btn" id="gate-submit">Entrar</button>
@@ -92,6 +93,8 @@
   </main>
 
   <script src="mode.js"></script>
+  <script src="cadastro-key.js"></script>
+  <script src="cadastro-github.js"></script>
   <script src="config.js"></script>
   <script src="configs.js"></script>
 </body>

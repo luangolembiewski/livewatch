@@ -1,0 +1,2 @@
+/* Chave PÚBLICA de criptografia do cadastro (pode ser pública). A privada fica só no secret LIVEWATCH_PRIVATE_KEY. */
+window.LIVEWATCH_PUBLIC_KEY = 'MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAw+hgENKDUL1wl7+jGN1v+37wq+qffSAlXaBb/+lE0g3JAVQ6ryKpV7ra5GQQHfJUyRrQ0wHIqvSXPlloagd7504iB8FffjHpcSukATAezXDWvBr/3s1K+r6tJD/dOqi8qY241FFxe1CC4MsrT4R8XbeHCVRLq31pURMT/iMaBbxK6pkjQG3Few8q+bDiiRuyY87EmfEbjx10J1AvD502+fpFdz4BxlXZXP3jPrt/PQk5bq9/PgDCFr/Cfgh8uVBitGT7dlX+Tw7ya7yUCHMmZ2vyXYgCyZMUb0xBrVwR7hpx1LMW5UfZl/rJPWsMuHw8zkKOpFeuuYXeM1L4YOlAVQIDAQAB';

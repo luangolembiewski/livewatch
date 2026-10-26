@@ -7,6 +7,7 @@
  */
 (function () {
   const STATIC = false; // o scripts/build-pages.mjs troca para true no build do Pages
+  const REPO = ''; // dono/repo, preenchido no build (GITHUB_REPOSITORY)
   const KEY = 'livewatch-config';
 
   const readSaved = () => { try { return localStorage.getItem(KEY) || ''; } catch { return ''; } };
@@ -45,6 +46,21 @@
     try { localStorage.setItem(KEY, name); } catch { /* sem storage */ }
   }
 
-  window.LIVEWATCH = { static: STATIC, configs, status, refresh, choose };
+  /** Elenco bruto (configs/<nome>.json publicado junto com o site). */
+  async function roster() {
+    const { active } = await configs();
+    const data = await getJson(`configs/${encodeURIComponent(active)}.json`);
+    return { active, items: Array.isArray(data) ? data : data.streamers || [] };
+  }
+
+  function repo() {
+    if (REPO) return REPO;
+    // usuario.github.io/repo/ → usuario/repo
+    const user = location.hostname.split('.')[0];
+    const name = location.pathname.split('/').filter(Boolean)[0];
+    return user && name ? `${user}/${name}` : '';
+  }
+
+  window.LIVEWATCH = { static: STATIC, configs, status, refresh, choose, roster, repo };
   if (STATIC) document.documentElement.classList.add('lw-static');
 })();
