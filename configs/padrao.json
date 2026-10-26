@@ -1,0 +1,672 @@
+[
+  {
+    "id": "d3da1fab-9d50-4ae1-8a41-45005a04e8a6",
+    "personagem": "Gui P1",
+    "liveUrl": "https://www.twitch.tv/guip1",
+    "job": "Polícia",
+    "platform": "twitch",
+    "channel": "guip1",
+    "createdAt": "2026-07-27T23:00:06.559Z",
+    "updatedAt": "2026-07-27T23:01:07.117Z"
+  },
+  {
+    "id": "2b164a9d-2cfe-4ed1-a5b7-a56da8480346",
+    "personagem": "Natally",
+    "liveUrl": "https://www.twitch.tv/bia7fps",
+    "job": "Polícia",
+    "platform": "twitch",
+    "channel": "bia7fps",
+    "createdAt": "2026-07-27T23:00:35.684Z",
+    "updatedAt": "2026-07-27T23:01:00.997Z"
+  },
+  {
+    "id": "1de9f2aa-1506-464a-b4c4-31cf2d3c6a31",
+    "personagem": "Carlin",
+    "liveUrl": "https://www.twitch.tv/carlindoheli",
+    "job": "Polícia",
+    "platform": "twitch",
+    "channel": "carlindoheli",
+    "createdAt": "2026-07-27T23:00:50.853Z",
+    "updatedAt": "2026-07-27T23:00:50.853Z"
+  },
+  {
+    "id": "08b2c3ea-c822-4e99-9b63-fa6055546b5b",
+    "personagem": "Livio",
+    "liveUrl": "https://kick.com/liviomateus",
+    "job": "Polícia",
+    "platform": "kick",
+    "channel": "liviomateus",
+    "createdAt": "2026-07-27T23:01:48.284Z",
+    "updatedAt": "2026-07-27T23:01:48.284Z"
+  },
+  {
+    "id": "3404c4cd-dcda-4aca-8e1e-c690b379ceef",
+    "personagem": "Bota",
+    "liveUrl": "https://www.twitch.tv/botafps",
+    "job": "Polícia",
+    "platform": "twitch",
+    "channel": "botafps",
+    "createdAt": "2026-07-27T23:06:13.197Z",
+    "updatedAt": "2026-07-27T23:06:13.197Z"
+  },
+  {
+    "id": "43fc070b-9acf-4ed7-8794-4d1b9e1382b9",
+    "personagem": "Talisca",
+    "liveUrl": "https://www.twitch.tv/yur1lm___",
+    "job": "Polícia",
+    "platform": "twitch",
+    "channel": "yur1lm___",
+    "createdAt": "2026-07-27T23:06:38.418Z",
+    "updatedAt": "2026-07-27T23:06:38.418Z"
+  },
+  {
+    "id": "ad8e5e6f-d096-43c9-90b3-833aa26f55e1",
+    "personagem": "Severino",
+    "liveUrl": "https://www.twitch.tv/severiinorp",
+    "job": "Ilegal",
+    "platform": "twitch",
+    "channel": "severiinorp",
+    "createdAt": "2026-07-27T23:06:54.235Z",
+    "updatedAt": "2026-07-27T23:06:54.235Z"
+  },
+  {
+    "id": "bd38c117-954d-4fbd-86dc-71da47e6a48a",
+    "personagem": "Ceguinho",
+    "liveUrl": "https://kick.com/ceguinhorp",
+    "job": "Prefeitura",
+    "platform": "kick",
+    "channel": "ceguinhorp",
+    "createdAt": "2026-07-27T23:07:23.597Z",
+    "updatedAt": "2026-07-28T00:25:38.298Z"
+  },
+  {
+    "id": "f43afce6-840d-4ab7-9734-937c136cca1a",
+    "personagem": "Coringa",
+    "liveUrl": "https://kick.com/coringa",
+    "job": "Polícia",
+    "platform": "kick",
+    "channel": "coringa",
+    "createdAt": "2026-07-27T23:07:45.582Z",
+    "updatedAt": "2026-07-27T23:07:45.582Z"
+  },
+  {
+    "id": "2dfd02a3-5d08-4e49-b975-5dd8a01415df",
+    "personagem": "1Grande",
+    "liveUrl": "https://www.twitch.tv/1grandee",
+    "job": "Polícia",
+    "platform": "twitch",
+    "channel": "1grandee",
+    "createdAt": "2026-07-27T23:45:55.799Z",
+    "updatedAt": "2026-07-27T23:45:55.799Z"
+  },
+  {
+    "id": "d60d0a06-9270-4669-ba82-55db6ea10b63",
+    "personagem": "LuanZ7",
+    "liveUrl": "https://www.twitch.tv/luanz7",
+    "job": "Ilegal",
+    "platform": "twitch",
+    "channel": "luanz7",
+    "createdAt": "2026-07-27T23:46:13.824Z",
+    "updatedAt": "2026-07-27T23:46:13.824Z"
+  },
+  {
+    "id": "343adadf-2c95-44c2-a31a-45a406e71de0",
+    "personagem": "FelipeFraga",
+    "liveUrl": "https://www.twitch.tv/ofelipefraga",
+    "job": "Dybrick",
+    "platform": "twitch",
+    "channel": "ofelipefraga",
+    "createdAt": "2026-07-27T23:46:48.159Z",
+    "updatedAt": "2026-08-28T19:48:31.332Z"
+  },
+  {
+    "id": "039b2313-ef37-47bb-be10-b545c35cd4a0",
+    "personagem": "Trovão",
+    "liveUrl": "https://www.twitch.tv/trovaofps_",
+    "job": "Polícia",
+    "platform": "twitch",
+    "channel": "trovaofps_",
+    "createdAt": "2026-07-27T23:47:05.031Z",
+    "updatedAt": "2026-07-27T23:47:05.031Z"
+  },
+  {
+    "id": "09b6d41f-6352-4811-a40f-162d79081ba0",
+    "personagem": "Borracha",
+    "liveUrl": "https://www.twitch.tv/olouzada",
+    "job": "Pitstop",
+    "platform": "twitch",
+    "channel": "olouzada",
+    "createdAt": "2026-07-27T23:47:33.671Z",
+    "updatedAt": "2026-07-28T00:03:04.856Z"
+  },
+  {
+    "id": "6e8f02a8-520d-41b9-8475-a13eb5183fef",
+    "personagem": "TH",
+    "liveUrl": "https://www.twitch.tv/thfpssss",
+    "job": "Polícia",
+    "platform": "twitch",
+    "channel": "thfpssss",
+    "createdAt": "2026-07-27T23:50:05.704Z",
+    "updatedAt": "2026-07-27T23:50:05.704Z"
+  },
+  {
+    "id": "cd219f32-861b-4b7e-8451-b13a687c1cb2",
+    "personagem": "Luana",
+    "liveUrl": "https://www.twitch.tv/iamluana",
+    "job": "Anarkia",
+    "platform": "twitch",
+    "channel": "iamluana",
+    "createdAt": "2026-07-27T23:51:11.415Z",
+    "updatedAt": "2026-07-27T23:51:11.415Z"
+  },
+  {
+    "id": "c51a4520-e02f-4589-98c3-5026b8804cc0",
+    "personagem": "Julia",
+    "liveUrl": "https://www.twitch.tv/julinhaaaaa7",
+    "job": "Grécia",
+    "platform": "twitch",
+    "channel": "julinhaaaaa7",
+    "createdAt": "2026-07-27T23:51:40.760Z",
+    "updatedAt": "2026-07-28T00:06:17.776Z"
+  },
+  {
+    "id": "6b2c9254-e03a-4206-b0e0-52e31e70ee64",
+    "personagem": "Silva",
+    "liveUrl": "https://www.twitch.tv/silvap1",
+    "job": "Polícia",
+    "platform": "twitch",
+    "channel": "silvap1",
+    "createdAt": "2026-07-27T23:51:53.345Z",
+    "updatedAt": "2026-07-27T23:51:53.345Z"
+  },
+  {
+    "id": "ddbd3ab3-c902-4525-8898-d03af692eacb",
+    "personagem": "Azevedo",
+    "liveUrl": "https://www.twitch.tv/gabex1987",
+    "job": "Polícia North",
+    "platform": "twitch",
+    "channel": "gabex1987",
+    "createdAt": "2026-07-27T23:52:15.208Z",
+    "updatedAt": "2026-07-27T23:52:15.208Z"
+  },
+  {
+    "id": "018ea2b4-22d9-4f2c-b7f1-f3d976c2add0",
+    "personagem": "Paola",
+    "liveUrl": "https://www.twitch.tv/paolafox",
+    "job": "Ilegal",
+    "platform": "twitch",
+    "channel": "paolafox",
+    "createdAt": "2026-07-27T23:52:31.919Z",
+    "updatedAt": "2026-07-27T23:52:31.919Z"
+  },
+  {
+    "id": "01edcd39-f3e1-46ba-898f-5f61d2cb3b05",
+    "personagem": "Goiano",
+    "liveUrl": "https://www.twitch.tv/goiannoxp",
+    "job": "Ilegal",
+    "platform": "twitch",
+    "channel": "goiannoxp",
+    "createdAt": "2026-07-27T23:53:02.968Z",
+    "updatedAt": "2026-07-27T23:53:02.968Z"
+  },
+  {
+    "id": "ddf968d9-d539-4b11-bc0d-de626223ea13",
+    "personagem": "Louiise",
+    "liveUrl": "https://www.twitch.tv/louiisegab",
+    "job": "Ilegal",
+    "platform": "twitch",
+    "channel": "louiisegab",
+    "createdAt": "2026-07-27T23:53:31.055Z",
+    "updatedAt": "2026-07-27T23:53:31.055Z"
+  },
+  {
+    "id": "51acbe80-705d-44ba-a9a5-0e1c8e706481",
+    "personagem": "Bahia",
+    "liveUrl": "https://www.twitch.tv/bahiaqz",
+    "job": "Prefeitura",
+    "platform": "twitch",
+    "channel": "bahiaqz",
+    "createdAt": "2026-07-28T00:00:40.665Z",
+    "updatedAt": "2026-07-28T00:00:40.665Z"
+  },
+  {
+    "id": "07d9aa47-6b28-4755-8114-d57efe53fa61",
+    "personagem": "Cabrito",
+    "liveUrl": "https://www.twitch.tv/cabritorei",
+    "job": "Polícia",
+    "platform": "twitch",
+    "channel": "cabritorei",
+    "createdAt": "2026-07-28T00:01:24.152Z",
+    "updatedAt": "2026-07-28T00:01:24.152Z"
+  },
+  {
+    "id": "8e8507ee-cca5-40fb-b211-cf8b33e4cc79",
+    "personagem": "Kiara",
+    "liveUrl": "https://www.twitch.tv/cintiabianchetti",
+    "job": "Espanha",
+    "platform": "twitch",
+    "channel": "cintiabianchetti",
+    "createdAt": "2026-07-28T00:02:21.168Z",
+    "updatedAt": "2026-07-28T00:02:21.168Z"
+  },
+  {
+    "id": "13fea0de-7167-4b56-967c-1ca4726fa3b2",
+    "personagem": "Perdent",
+    "liveUrl": "https://www.twitch.tv/perdentfps",
+    "job": "Grécia",
+    "platform": "twitch",
+    "channel": "perdentfps",
+    "createdAt": "2026-07-28T00:06:03.161Z",
+    "updatedAt": "2026-07-28T00:06:03.161Z"
+  },
+  {
+    "id": "2ad9f91f-8fb0-4835-ac96-610eed4e338f",
+    "personagem": "WZ",
+    "liveUrl": "https://www.twitch.tv/whzfps",
+    "job": "Ilegal",
+    "platform": "twitch",
+    "channel": "whzfps",
+    "createdAt": "2026-07-28T00:09:18.512Z",
+    "updatedAt": "2026-07-28T00:09:18.512Z"
+  },
+  {
+    "id": "840221b8-dfcb-464c-b791-d83d70b6c518",
+    "personagem": "Dillon",
+    "liveUrl": "https://www.twitch.tv/elektrofpss",
+    "job": "Polícia",
+    "platform": "twitch",
+    "channel": "elektrofpss",
+    "createdAt": "2026-07-28T00:09:50.240Z",
+    "updatedAt": "2026-07-28T00:09:50.240Z"
+  },
+  {
+    "id": "87dd4df6-39fa-4471-ad50-904f3111589f",
+    "personagem": "Tsuuki",
+    "liveUrl": "https://www.twitch.tv/biatsuuki",
+    "job": "Prefeitura",
+    "platform": "twitch",
+    "channel": "biatsuuki",
+    "createdAt": "2026-07-28T00:24:21.667Z",
+    "updatedAt": "2026-07-28T00:24:21.667Z"
+  },
+  {
+    "id": "16f09bc2-feec-4abf-be18-67a976b9b962",
+    "personagem": "Fox",
+    "liveUrl": "https://www.twitch.tv/eaifox",
+    "job": "Polícia",
+    "platform": "twitch",
+    "channel": "eaifox",
+    "createdAt": "2026-07-28T00:26:16.394Z",
+    "updatedAt": "2026-07-28T00:26:16.394Z"
+  },
+  {
+    "id": "864edce6-2021-4e86-b881-0458d0807c5d",
+    "personagem": "Snow",
+    "liveUrl": "https://www.twitch.tv/snowwp1",
+    "job": "Albânia",
+    "platform": "twitch",
+    "channel": "snowwp1",
+    "createdAt": "2026-07-28T00:26:37.306Z",
+    "updatedAt": "2026-07-28T00:26:37.306Z"
+  },
+  {
+    "id": "94bd7395-ea0b-4a00-8481-0897d1e8e68b",
+    "personagem": "Samuel",
+    "liveUrl": "https://kick.com/samuel-4731",
+    "job": "Polícia",
+    "platform": "kick",
+    "channel": "samuel-4731",
+    "createdAt": "2026-07-28T00:28:28.186Z",
+    "updatedAt": "2026-07-28T00:28:28.186Z"
+  },
+  {
+    "id": "73f128fa-9a55-41b2-9a67-f1e3127104eb",
+    "personagem": "PK",
+    "liveUrl": "https://kick.com/diliopk",
+    "job": "Polícia",
+    "platform": "kick",
+    "channel": "diliopk",
+    "createdAt": "2026-07-28T00:28:44.434Z",
+    "updatedAt": "2026-07-28T00:28:44.434Z"
+  },
+  {
+    "id": "f17f6ccf-3dbc-4fba-82bc-b620a51e7152",
+    "personagem": "ChinaLiu",
+    "liveUrl": "https://www.twitch.tv/chinaliurp",
+    "job": "Polícia",
+    "platform": "twitch",
+    "channel": "chinaliurp",
+    "createdAt": "2026-07-28T01:50:52.431Z",
+    "updatedAt": "2026-07-28T01:50:52.431Z"
+  },
+  {
+    "id": "0c0feacc-b660-45b3-946b-4911111a8ba2",
+    "personagem": "Natysecco",
+    "liveUrl": "https://www.twitch.tv/natysecco",
+    "job": "Polícia",
+    "platform": "twitch",
+    "channel": "natysecco",
+    "createdAt": "2026-07-28T21:44:11.549Z",
+    "updatedAt": "2026-07-28T21:44:11.549Z"
+  },
+  {
+    "id": "921b2d0e-9d73-42da-b8e1-348afff4b511",
+    "personagem": "Galeguin",
+    "liveUrl": "https://www.twitch.tv/galeguins",
+    "job": "Polícia",
+    "platform": "twitch",
+    "channel": "galeguins",
+    "createdAt": "2026-07-28T21:44:27.909Z",
+    "updatedAt": "2026-07-28T21:44:27.909Z"
+  },
+  {
+    "id": "2e3f5950-c616-49c8-9791-32cb0196a339",
+    "personagem": "Mel",
+    "liveUrl": "https://www.twitch.tv/mel_cangaceira",
+    "job": "Polícia",
+    "platform": "twitch",
+    "channel": "mel_cangaceira",
+    "createdAt": "2026-07-28T21:44:41.967Z",
+    "updatedAt": "2026-07-28T21:44:41.967Z"
+  },
+  {
+    "id": "e88b8e9f-b4b2-4821-9c29-0e2680840161",
+    "personagem": "Will",
+    "liveUrl": "https://kick.com/omanowills",
+    "job": "Polícia",
+    "platform": "kick",
+    "channel": "omanowills",
+    "createdAt": "2026-07-28T22:25:38.352Z",
+    "updatedAt": "2026-07-28T22:25:38.352Z"
+  },
+  {
+    "id": "1d76b045-1353-43b6-ad73-6d0c212047b6",
+    "personagem": "Dedemqv",
+    "liveUrl": "https://www.twitch.tv/dedemqv",
+    "job": "Polícia",
+    "platform": "twitch",
+    "channel": "dedemqv",
+    "createdAt": "2026-07-28T22:34:18.697Z",
+    "updatedAt": "2026-07-28T22:34:18.697Z"
+  },
+  {
+    "id": "c06e58fc-e871-448b-85ee-14777176033b",
+    "personagem": "Lua Bennett",
+    "liveUrl": "https://www.twitch.tv/lua_bennett",
+    "job": "Polícia",
+    "platform": "twitch",
+    "channel": "lua_bennett",
+    "createdAt": "2026-07-29T00:10:11.358Z",
+    "updatedAt": "2026-07-29T00:10:11.358Z"
+  },
+  {
+    "id": "d623a673-abba-4497-9560-446975da42fc",
+    "personagem": "Toduro",
+    "liveUrl": "https://kick.com/todurorp",
+    "job": "Ilegal",
+    "platform": "kick",
+    "channel": "todurorp",
+    "createdAt": "2026-07-29T01:53:38.293Z",
+    "updatedAt": "2026-07-29T01:53:38.293Z"
+  },
+  {
+    "id": "22c6f21d-130a-4700-95bc-8e949da28d1f",
+    "personagem": "Allezin",
+    "liveUrl": "https://www.twitch.tv/allezin_",
+    "job": "Polícia",
+    "platform": "twitch",
+    "channel": "allezin_",
+    "createdAt": "2026-08-28T19:47:20.996Z",
+    "updatedAt": "2026-08-28T19:47:20.996Z"
+  },
+  {
+    "id": "9d8f2b04-f850-40ac-b3ca-f2d90e2b60f3",
+    "personagem": "Pudim",
+    "liveUrl": "https://www.twitch.tv/pudim_az",
+    "job": "Polícia",
+    "platform": "twitch",
+    "channel": "pudim_az",
+    "createdAt": "2026-08-28T19:49:08.520Z",
+    "updatedAt": "2026-08-28T19:49:08.520Z"
+  },
+  {
+    "id": "3a74a99f-fcab-4942-98fc-f146e559d6c6",
+    "personagem": "Mathz",
+    "liveUrl": "https://www.twitch.tv/mathzr7",
+    "job": "Ville",
+    "platform": "twitch",
+    "channel": "mathzr7",
+    "createdAt": "2026-08-28T19:49:39.784Z",
+    "updatedAt": "2026-09-18T23:46:57.378Z"
+  },
+  {
+    "id": "4ce57ce2-86bd-4fcc-a9df-a02e780da5be",
+    "personagem": "Barbosa",
+    "liveUrl": "https://www.twitch.tv/eubarbosa_",
+    "job": "Polícia",
+    "platform": "twitch",
+    "channel": "eubarbosa_",
+    "createdAt": "2026-08-28T19:50:04.440Z",
+    "updatedAt": "2026-08-28T19:50:04.440Z"
+  },
+  {
+    "id": "f3ef9e02-42ea-4bc7-acd1-2b895baff04a",
+    "personagem": "Galeguin",
+    "liveUrl": "https://kick.com/galeguins",
+    "job": "Polícia",
+    "platform": "kick",
+    "channel": "galeguins",
+    "createdAt": "2026-09-02T20:34:17.019Z",
+    "updatedAt": "2026-09-02T20:34:17.019Z"
+  },
+  {
+    "id": "d0961cef-c6ab-4b41-960e-6d1b4b72acf9",
+    "personagem": "Deanz1n",
+    "liveUrl": "https://www.twitch.tv/deanz1n",
+    "job": "Polícia",
+    "platform": "twitch",
+    "channel": "deanz1n",
+    "createdAt": "2026-09-15T17:37:29.516Z",
+    "updatedAt": "2026-09-15T17:37:29.516Z"
+  },
+  {
+    "id": "2f0b2db5-f8a6-429a-9d2e-31210d832276",
+    "personagem": "Peaga",
+    "liveUrl": "https://www.twitch.tv/peagadf",
+    "job": "Ville",
+    "platform": "twitch",
+    "channel": "peagadf",
+    "createdAt": "2026-09-15T18:34:19.925Z",
+    "updatedAt": "2026-09-15T18:34:41.502Z"
+  },
+  {
+    "id": "e66dffb1-e2bd-42af-8bce-7675f4429285",
+    "personagem": "eabaiana",
+    "liveUrl": "https://www.twitch.tv/eabaianavida7",
+    "job": "Ilegal",
+    "platform": "twitch",
+    "channel": "eabaianavida7",
+    "createdAt": "2026-09-15T18:41:23.262Z",
+    "updatedAt": "2026-09-15T18:41:23.262Z"
+  },
+  {
+    "id": "9dd2469e-9024-4b6d-abc4-48edeaaa38a3",
+    "personagem": "eucarololiveira",
+    "liveUrl": "https://www.twitch.tv/eucarololiveiraaaa",
+    "job": "Ilegal",
+    "platform": "twitch",
+    "channel": "eucarololiveiraaaa",
+    "createdAt": "2026-09-15T18:43:03.256Z",
+    "updatedAt": "2026-09-15T18:43:03.256Z"
+  },
+  {
+    "id": "1c925ad8-bfcd-44c6-97ee-2bcca53f575d",
+    "personagem": "henrybalinha",
+    "liveUrl": "https://www.twitch.tv/henrybalinha",
+    "job": "Ilegal",
+    "platform": "twitch",
+    "channel": "henrybalinha",
+    "createdAt": "2026-09-17T18:51:40.443Z",
+    "updatedAt": "2026-09-17T18:51:40.443Z"
+  },
+  {
+    "id": "b98b9381-47e6-4257-af97-68571a665b96",
+    "personagem": "gigicaldeirao",
+    "liveUrl": "https://www.twitch.tv/gigicaldeiraoo",
+    "job": "Polícia Ville",
+    "platform": "twitch",
+    "channel": "gigicaldeiraoo",
+    "createdAt": "2026-09-18T23:34:40.816Z",
+    "updatedAt": "2026-09-18T23:34:40.816Z"
+  },
+  {
+    "id": "383d0f9a-d0d7-4449-8dca-eeaf4978b866",
+    "personagem": "Juan",
+    "liveUrl": "https://www.twitch.tv/01juan__",
+    "job": "Espanha",
+    "platform": "twitch",
+    "channel": "01juan__",
+    "createdAt": "2026-09-18T23:37:59.515Z",
+    "updatedAt": "2026-09-18T23:37:59.515Z"
+  },
+  {
+    "id": "f6401922-4ba5-4ec4-bd6e-328855994c7b",
+    "personagem": "Enkeo",
+    "liveUrl": "https://www.twitch.tv/enke0_",
+    "job": "Ilegal",
+    "platform": "twitch",
+    "channel": "enke0_",
+    "createdAt": "2026-09-18T23:39:33.093Z",
+    "updatedAt": "2026-09-18T23:39:33.093Z"
+  },
+  {
+    "id": "cdcc306f-aa5c-44cb-9d26-8b5696e8d329",
+    "personagem": "Gabe P1",
+    "liveUrl": "https://www.twitch.tv/gabee_p1",
+    "job": "Montreal",
+    "platform": "twitch",
+    "channel": "gabee_p1",
+    "createdAt": "2026-09-18T23:43:30.284Z",
+    "updatedAt": "2026-09-18T23:43:30.284Z"
+  },
+  {
+    "id": "40ac20c0-fee8-4a6b-b305-54b398e523c6",
+    "personagem": "Hugo Leo",
+    "liveUrl": "https://www.twitch.tv/hugoleoo1",
+    "job": "Polícia Ville",
+    "platform": "twitch",
+    "channel": "hugoleoo1",
+    "createdAt": "2026-09-18T23:43:56.316Z",
+    "updatedAt": "2026-09-18T23:43:56.316Z"
+  },
+  {
+    "id": "89fbfb82-2694-486c-b438-9f776af4f0d3",
+    "personagem": "Pippa",
+    "liveUrl": "https://www.twitch.tv/pippa2fly",
+    "job": "Mecânica",
+    "platform": "twitch",
+    "channel": "pippa2fly",
+    "createdAt": "2026-09-18T23:44:34.916Z",
+    "updatedAt": "2026-09-18T23:44:34.916Z"
+  },
+  {
+    "id": "22f65631-d32e-4567-818b-16f9d49c5563",
+    "personagem": "BobLee",
+    "liveUrl": "https://www.twitch.tv/bob_leefps",
+    "job": "Nexus",
+    "platform": "twitch",
+    "channel": "bob_leefps",
+    "createdAt": "2026-09-18T23:51:20.165Z",
+    "updatedAt": "2026-09-18T23:51:20.165Z"
+  },
+  {
+    "id": "fd79a689-86f0-4fd2-8700-cb0840f135d7",
+    "personagem": "Simão",
+    "liveUrl": "https://www.twitch.tv/simaodfloripa",
+    "job": "Polícia",
+    "platform": "twitch",
+    "channel": "simaodfloripa",
+    "createdAt": "2026-09-18T23:51:50.629Z",
+    "updatedAt": "2026-09-18T23:51:50.629Z"
+  },
+  {
+    "id": "fdae0e1f-72c7-4a04-9620-6d0d96d0f487",
+    "personagem": "Souza",
+    "liveUrl": "https://kick.com/souuza",
+    "job": "Russia",
+    "platform": "kick",
+    "channel": "souuza",
+    "createdAt": "2026-09-24T18:50:09.103Z",
+    "updatedAt": "2026-09-24T18:50:09.103Z"
+  },
+  {
+    "id": "cc43f88e-bb65-4c81-aae1-80e02a05d7ff",
+    "personagem": "Isateytey",
+    "liveUrl": "https://www.twitch.tv/isateytey",
+    "job": "Ville",
+    "platform": "twitch",
+    "channel": "isateytey",
+    "createdAt": "2026-09-25T14:39:13.403Z",
+    "updatedAt": "2026-09-25T14:39:13.403Z"
+  },
+  {
+    "id": "7b63dbbf-7467-41f1-8704-e3e4025a2669",
+    "personagem": "Acoppii",
+    "liveUrl": "https://www.twitch.tv/acoppii",
+    "job": "Polícia",
+    "platform": "twitch",
+    "channel": "acoppii",
+    "createdAt": "2026-10-22T21:43:54.109Z",
+    "updatedAt": "2026-10-22T21:43:54.109Z"
+  },
+  {
+    "id": "0f37e174-f9ab-4dac-9b69-684469ee2dbe",
+    "personagem": "skyezinhafps",
+    "liveUrl": "https://www.twitch.tv/skyezinhafps",
+    "job": "Polícia",
+    "platform": "twitch",
+    "channel": "skyezinhafps",
+    "createdAt": "2026-10-25T18:58:32.919Z",
+    "updatedAt": "2026-10-25T18:58:32.919Z"
+  },
+  {
+    "id": "a7b8218e-7608-497b-9d85-7cd17c80ee7c",
+    "personagem": "Caicara",
+    "liveUrl": "https://www.twitch.tv/caicara02",
+    "job": "Polícia",
+    "platform": "twitch",
+    "channel": "caicara02",
+    "createdAt": "2026-10-25T19:33:34.893Z",
+    "updatedAt": "2026-10-25T19:33:34.893Z"
+  },
+  {
+    "id": "76ef94f4-5f1c-4561-8a61-810974126a78",
+    "personagem": "Tomzera",
+    "liveUrl": "https://www.twitch.tv/ttomzera28",
+    "job": "Tuning",
+    "platform": "twitch",
+    "channel": "ttomzera28",
+    "createdAt": "2026-10-25T23:05:06.390Z",
+    "updatedAt": "2026-10-25T23:05:06.390Z"
+  },
+  {
+    "id": "6992d363-c904-4ae7-a4d8-771bc0bf246f",
+    "personagem": "Orondoniense",
+    "liveUrl": "https://www.twitch.tv/orondonienseplay",
+    "job": "Tuning",
+    "platform": "twitch",
+    "channel": "orondonienseplay",
+    "createdAt": "2026-10-25T23:05:31.780Z",
+    "updatedAt": "2026-10-25T23:05:31.780Z"
+  },
+  {
+    "id": "2e854f44-a166-4e87-9eab-2d85426a2f27",
+    "personagem": "Baronesa",
+    "liveUrl": "https://www.twitch.tv/baronesa_rp",
+    "job": "Tuning",
+    "platform": "twitch",
+    "channel": "baronesa_rp",
+    "createdAt": "2026-10-25T23:06:08.668Z",
+    "updatedAt": "2026-10-25T23:06:08.668Z"
+  }
+]
