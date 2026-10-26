@@ -1,0 +1,6 @@
+# Segredos e dados locais (o .gitignore da raiz também cobre)
+.env
+node_modules/
+data/
+*.tmp
+_site/
