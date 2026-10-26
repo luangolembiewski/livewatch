@@ -668,5 +668,15 @@
     "channel": "baronesa_rp",
     "createdAt": "2026-10-25T23:06:08.668Z",
     "updatedAt": "2026-10-25T23:06:08.668Z"
+  },
+  {
+    "id": "5eb5b3b1-16f8-4aeb-a6d1-e3967ddf6e58",
+    "personagem": "Odreezyj",
+    "liveUrl": "https://www.twitch.tv/odreezyj",
+    "job": "Ilegal",
+    "platform": "twitch",
+    "channel": "odreezyj",
+    "createdAt": "2026-10-26T18:45:08.846Z",
+    "updatedAt": "2026-10-26T18:45:08.846Z"
   }
 ]
