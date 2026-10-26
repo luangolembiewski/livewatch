@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Metropole — Cadastro de stream</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="gate" id="gate" hidden>
+    <div class="panel gate-box">
+      <h2>Acesso ao cadastro</h2>
+      <div class="field">
+        <label for="gate-password">Senha (ADMIN_PASSWORD do .env)</label>
+        <input type="password" id="gate-password" autocomplete="current-password" />
+      </div>
+      <p class="notice bad" id="gate-error" hidden></p>
+      <div class="actions">
+        <button class="btn" id="gate-submit">Entrar</button>
+        <a class="btn ghost" href="./">Voltar ao painel</a>
+      </div>
+    </div>
+  </div>
+
+  <header class="topbar">
+    <div class="topbar-inner">
+      <div>
+        <h1 class="title">Cadastro de <em>stream</em></h1>
+        <div class="cfgbar" id="cfgbar"></div>
+      </div>
+      <nav class="nav">
+        <a href="./">Painel</a>
+        <a href="multi.html">Multi</a>
+        <a href="config.html" aria-current="page">Cadastro</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <p class="notice" id="notice" hidden></p>
+
+    <div class="layout">
+      <div class="panel">
+        <h2 id="form-title">Novo personagem</h2>
+
+        <div class="field">
+          <label for="personagem">Personagem</label>
+          <input id="personagem" placeholder="Ex.: Vito Moretti" />
+        </div>
+
+        <div class="field">
+          <label for="liveUrl">Link da live</label>
+          <input id="liveUrl" placeholder="twitch.tv/canal ou kick.com/canal" />
+          <span class="hint" id="platform-hint">A plataforma é detectada pelo link.</span>
+        </div>
+
+        <div class="field">
+          <label for="job">Job</label>
+          <input id="job" list="job-list" placeholder="Ex.: policia, mecanico, corridas" />
+          <datalist id="job-list"></datalist>
+        </div>
+
+        <div class="actions">
+          <button class="btn" id="save">Salvar</button>
+          <button class="btn ghost" id="cancel" hidden>Cancelar edição</button>
+        </div>
+      </div>
+
+      <div class="panel">
+        <div class="filters" style="margin: 0 0 16px">
+          <input class="grow" type="search" id="search" placeholder="Buscar no elenco…" />
+          <button class="btn ghost small" id="export">Exportar JSON</button>
+        </div>
+
+        <table>
+          <thead>
+            <tr>
+              <th>Personagem</th>
+              <th>Canal</th>
+              <th>Job</th>
+              <th></th>
+            </tr>
+          </thead>
+          <tbody id="tbody"></tbody>
+        </table>
+
+        <div class="empty" id="empty" hidden>
+          Nenhum personagem cadastrado. Preencha o formulário ao lado para começar.
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <script src="mode.js"></script>
+  <script src="config.js"></script>
+  <script src="configs.js"></script>
+</body>
+</html>

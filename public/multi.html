@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Metropole — Multi stream</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="topbar">
+    <div class="topbar-inner">
+      <div>
+        <h1 class="title">Multi <em>stream</em></h1>
+        <div class="cfgbar" id="cfgbar"></div>
+      </div>
+      <div class="readout">
+        <div class="readout-item">
+          <div class="readout-value on" id="count-tiles">0</div>
+          <div class="readout-label">na grade</div>
+        </div>
+        <nav class="nav">
+          <a href="./">Painel</a>
+          <a href="multi.html" aria-current="page">Multi</a>
+          <a href="config.html" data-admin>Cadastro</a>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <p class="notice bad" id="notice" hidden></p>
+
+    <div class="multi-bar">
+      <select id="pick">
+        <option value="">Adicionar do cadastro…</option>
+      </select>
+      <input id="manual" class="grow" type="text" placeholder="ou cole twitch.tv/canal · kick.com/canal" />
+      <button class="btn" id="add">Adicionar</button>
+      <select id="layout" title="Colunas">
+        <option value="auto">Colunas: auto</option>
+        <option value="1">1 coluna</option>
+        <option value="2">2 colunas</option>
+        <option value="3">3 colunas</option>
+        <option value="4">4 colunas</option>
+      </select>
+      <button class="btn ghost" id="sound" title="Recarrega os players com áudio, caso o navegador tenha segurado">Ativar som</button>
+      <button class="btn ghost" id="fullscreen">Tela cheia</button>
+      <button class="btn ghost" id="clear">Limpar</button>
+    </div>
+
+    <div class="multi-grid" id="grid"></div>
+
+    <div class="empty" id="empty">
+      Nada na grade ainda. Vá para o <a href="./">painel</a> e clique no <strong>+</strong> dos cards
+      de quem está ao vivo, ou escolha um canal aqui em cima.
+    </div>
+  </main>
+
+  <script src="mode.js"></script>
+  <script src="multi-store.js"></script>
+  <script src="multi.js"></script>
+  <script src="configs.js"></script>
+</body>
+</html>

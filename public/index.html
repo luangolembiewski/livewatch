@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Metropole — Painel Stream</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="topbar">
+    <div class="topbar-inner">
+      <div>
+        <h1 class="title">Painel <em>Stream</em></h1>
+        <div class="cfgbar" id="cfgbar"></div>
+      </div>
+      <div class="readout">
+        <div class="readout-item">
+          <div class="readout-value on" id="count-live">—</div>
+          <div class="readout-label">Ao vivo</div>
+        </div>
+        <div class="readout-item">
+          <div class="readout-value" id="count-total">—</div>
+          <div class="readout-label">Cadastrados</div>
+        </div>
+        <nav class="nav">
+          <a href="./" aria-current="page">Painel</a>
+          <a href="multi.html" id="multi-link">Multi</a>
+          <a href="config.html" data-admin>Cadastro</a>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <p class="notice bad" id="notice" hidden></p>
+
+    <div class="filters">
+      <input class="grow" type="search" id="search" placeholder="Buscar por personagem, canal ou job…" />
+      <div class="chips" id="platform-chips">
+        <button class="chip" data-platform="" aria-pressed="true">Todas</button>
+        <button class="chip" data-platform="twitch" aria-pressed="false">Twitch</button>
+        <button class="chip" data-platform="kick" aria-pressed="false">Kick</button>
+      </div>
+      <select id="job-filter"><option value="">Todos os jobs</option></select>
+      <button class="btn ghost icon" id="refresh" title="Atualizar agora" aria-label="Atualizar agora">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+             stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <path d="M21 12a9 9 0 1 1-2.64-6.36" />
+          <polyline points="21 3 21 9 15 9" />
+        </svg>
+      </button>
+    </div>
+
+    <section>
+      <div class="section-head">
+        <h2 class="live">Ao vivo</h2>
+        <span class="section-count" id="live-count">carregando…</span>
+      </div>
+      <div class="grid" id="live-grid"></div>
+      <div class="empty" id="live-empty" hidden>Ninguém transmitindo agora.</div>
+    </section>
+
+    <section>
+      <div class="section-head">
+        <h2>Offline</h2>
+        <span class="section-count" id="offline-count"></span>
+      </div>
+      <div class="rows" id="offline-rows"></div>
+      <div class="empty" id="offline-empty" hidden>
+        Nenhum personagem cadastrado ainda. <a href="config.html" data-admin>Cadastrar o primeiro</a>.
+      </div>
+    </section>
+  </main>
+
+  <script src="mode.js"></script>
+  <script src="multi-store.js"></script>
+  <script src="dashboard.js"></script>
+  <script src="configs.js"></script>
+</body>
+</html>
