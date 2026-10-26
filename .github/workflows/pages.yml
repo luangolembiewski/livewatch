@@ -41,6 +41,9 @@ jobs:
           KICK_CLIENT_ID: ${{ secrets.KICK_CLIENT_ID }}
           KICK_CLIENT_SECRET: ${{ secrets.KICK_CLIENT_SECRET }}
           DEFAULT_CONFIG: ${{ vars.DEFAULT_CONFIG }}
+          # Só para a trava do build conferir que nenhum desses foi parar no site:
+          ADMIN_PASSWORD: ${{ secrets.ADMIN_PASSWORD }}
+          LIVEWATCH_PRIVATE_KEY: ${{ secrets.LIVEWATCH_PRIVATE_KEY }}
         run: node scripts/build-pages.mjs
 
       - uses: actions/upload-pages-artifact@v3
