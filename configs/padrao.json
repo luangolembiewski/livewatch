@@ -678,5 +678,15 @@
     "channel": "odreezyj",
     "createdAt": "2026-10-26T18:45:08.846Z",
     "updatedAt": "2026-10-26T18:45:08.846Z"
+  },
+  {
+    "id": "89d9d0ed-d72b-40fa-832f-17c39f7c12c7",
+    "personagem": "bilous",
+    "liveUrl": "https://www.twitch.tv/bilous_gg",
+    "job": "Polícia",
+    "platform": "twitch",
+    "channel": "bilous_gg",
+    "createdAt": "2026-10-27T21:23:20.226Z",
+    "updatedAt": "2026-10-27T21:23:20.226Z"
   }
 ]
