@@ -688,5 +688,15 @@
     "channel": "bilous_gg",
     "createdAt": "2026-10-27T21:23:20.226Z",
     "updatedAt": "2026-10-27T21:23:20.226Z"
+  },
+  {
+    "id": "dd6898bf-4970-4c7f-8d65-5bc5eaf4e76f",
+    "personagem": "Pombo",
+    "liveUrl": "https://www.twitch.tv/pombodosedex",
+    "job": "Hospital Detroit",
+    "platform": "twitch",
+    "channel": "pombodosedex",
+    "createdAt": "2026-10-28T01:24:17.207Z",
+    "updatedAt": "2026-10-28T01:24:17.207Z"
   }
 ]
