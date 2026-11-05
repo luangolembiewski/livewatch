@@ -363,7 +363,7 @@ loadStatus().catch(() => {
     : 'Não consegui falar com o servidor. Ele está rodando?');
 });
 
-setInterval(() => loadStatus().catch(() => {}), 30000);
+setInterval(() => loadStatus().catch(() => {}), 60000);
 
 // A aba Multi escreve na mesma lista: mantém o + e o contador em dia.
 window.addEventListener('storage', (e) => {
