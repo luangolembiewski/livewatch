@@ -8,6 +8,7 @@
 (function () {
   const STATIC = false; // o scripts/build-pages.mjs troca para true no build do Pages
   const REPO = ''; // dono/repo, preenchido no build (GITHUB_REPOSITORY)
+  const API = ''; // URL do Cloudflare Worker (variável LIVEWATCH_API), preenchida no build
   const KEY = 'livewatch-config';
 
   const readSaved = () => { try { return localStorage.getItem(KEY) || ''; } catch { return ''; } };
@@ -32,7 +33,12 @@
   async function status() {
     if (!STATIC) return getJson('api/status');
     const { active } = await configs();
-    return getJson(`status/${encodeURIComponent(active)}.json`);
+    const name = encodeURIComponent(active);
+    if (API) {
+      // Status ao vivo pelo Worker; se ele falhar, cai no arquivo gerado pela Action.
+      try { return await getJson(`${API}/status/${name}`); } catch { /* fallback abaixo */ }
+    }
+    return getJson(`status/${name}.json`);
   }
 
   async function refresh() {

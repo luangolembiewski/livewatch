@@ -40,7 +40,8 @@ for (const file of await fs.readdir(PUBLIC)) {
     const text = content.toString('utf8');
     const flipped = text
       .replace('const STATIC = false;', 'const STATIC = true;')
-      .replace("const REPO = '';", `const REPO = ${JSON.stringify(process.env.GITHUB_REPOSITORY || '')};`);
+      .replace("const REPO = '';", `const REPO = ${JSON.stringify(process.env.GITHUB_REPOSITORY || '')};`)
+      .replace("const API = '';", `const API = ${JSON.stringify((process.env.LIVEWATCH_API || '').replace(/\/+$/, ''))};`);
     if (!flipped.includes('const STATIC = true;')) throw new Error('mode.js: não achei "const STATIC = false;"');
     content = flipped;
   }

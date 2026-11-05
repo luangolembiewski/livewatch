@@ -1,0 +1,18 @@
+# Cloudflare Worker do Livewatch — ver worker/README.md
+name = "livewatch-api"
+main = "worker.js"
+compatibility_date = "2025-06-01"
+compatibility_flags = ["nodejs_compat"]
+
+[vars]
+REPO = "luangolembiewski/livewatch"
+BRANCH = "main"
+CACHE_SECONDS = "45"
+# Só o seu site pode ler a API (separe por vírgula; vazio = qualquer origem)
+ALLOWED_ORIGINS = "https://luangolembiewski.github.io"
+
+# Chaves NÃO ficam aqui. Rode uma vez:
+#   npx wrangler secret put TWITCH_CLIENT_ID
+#   npx wrangler secret put TWITCH_CLIENT_SECRET
+#   npx wrangler secret put KICK_CLIENT_ID
+#   npx wrangler secret put KICK_CLIENT_SECRET
