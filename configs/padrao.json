@@ -708,5 +708,15 @@
     "channel": "agabidelgado",
     "createdAt": "2026-11-06T18:16:40.680Z",
     "updatedAt": "2026-11-06T18:16:40.681Z"
+  },
+  {
+    "id": "6b51c74e-8e0a-442e-a1a7-dac94aed9ab7",
+    "personagem": "Tsuuki",
+    "liveUrl": "https://kick.com/biatsuuki",
+    "job": "Prefeitura",
+    "platform": "kick",
+    "channel": "biatsuuki",
+    "createdAt": "2026-11-06T21:32:35.689Z",
+    "updatedAt": "2026-11-06T21:32:35.690Z"
   }
 ]
