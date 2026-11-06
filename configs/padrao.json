@@ -698,5 +698,15 @@
     "channel": "pombodosedex",
     "createdAt": "2026-10-28T01:24:17.207Z",
     "updatedAt": "2026-10-28T01:24:17.207Z"
+  },
+  {
+    "id": "4de48608-7089-4e9d-b8fc-40e105e3dd67",
+    "personagem": "Tilda Metronews",
+    "liveUrl": "https://www.twitch.tv/agabidelgado",
+    "job": "MetroNews",
+    "platform": "twitch",
+    "channel": "agabidelgado",
+    "createdAt": "2026-11-06T18:16:40.680Z",
+    "updatedAt": "2026-11-06T18:16:40.681Z"
   }
 ]
