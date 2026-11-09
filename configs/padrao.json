@@ -738,5 +738,15 @@
     "channel": "apollo4897",
     "createdAt": "2026-11-09T21:07:38.559Z",
     "updatedAt": "2026-11-09T21:07:38.559Z"
+  },
+  {
+    "id": "8a477371-ba33-46b5-9b89-2f63467120f4",
+    "personagem": "Japa",
+    "liveUrl": "https://www.twitch.tv/ajapa_rp",
+    "job": "Ilegal",
+    "platform": "twitch",
+    "channel": "ajapa_rp",
+    "createdAt": "2026-11-09T21:08:16.682Z",
+    "updatedAt": "2026-11-09T21:08:16.682Z"
   }
 ]
