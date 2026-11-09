@@ -728,5 +728,15 @@
     "channel": "lopesbaygon",
     "createdAt": "2026-11-06T21:35:11.280Z",
     "updatedAt": "2026-11-06T22:08:28.793Z"
+  },
+  {
+    "id": "b380e14d-1efe-436b-8277-2eeb8ef169ef",
+    "personagem": "Apollo",
+    "liveUrl": "https://www.twitch.tv/apollo4897",
+    "job": "Ville",
+    "platform": "twitch",
+    "channel": "apollo4897",
+    "createdAt": "2026-11-09T21:07:38.559Z",
+    "updatedAt": "2026-11-09T21:07:38.559Z"
   }
 ]
