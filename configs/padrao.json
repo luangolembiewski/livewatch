@@ -440,16 +440,6 @@
     "updatedAt": "2026-09-18T23:46:57.378Z"
   },
   {
-    "id": "4ce57ce2-86bd-4fcc-a9df-a02e780da5be",
-    "personagem": "Barbosa",
-    "liveUrl": "https://www.twitch.tv/eubarbosa_",
-    "job": "Polícia",
-    "platform": "twitch",
-    "channel": "eubarbosa_",
-    "createdAt": "2026-08-28T19:50:04.440Z",
-    "updatedAt": "2026-08-28T19:50:04.440Z"
-  },
-  {
     "id": "f3ef9e02-42ea-4bc7-acd1-2b895baff04a",
     "personagem": "Galeguin",
     "liveUrl": "https://kick.com/galeguins",
