@@ -738,5 +738,15 @@
     "channel": "ajapa_rp",
     "createdAt": "2026-11-09T21:08:16.682Z",
     "updatedAt": "2026-11-09T21:08:16.682Z"
+  },
+  {
+    "id": "a0d4e5c4-f813-4f67-8665-40b831e82f21",
+    "personagem": "Indio",
+    "liveUrl": "https://kick.com/indiozzk",
+    "job": "Prefeitura",
+    "platform": "kick",
+    "channel": "indiozzk",
+    "createdAt": "2026-11-11T01:39:54.800Z",
+    "updatedAt": "2026-11-11T01:39:54.800Z"
   }
 ]
